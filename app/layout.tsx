@@ -27,18 +27,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <SidebarProvider
-        // style={
-        //   {
-        //     '--sidebar-width': '15rem',
-        //     '--sidebar-width-mobile': '20rem',
-        //   } as React.CSSProperties
-        // }
+      // style={
+      //   {
+      //     '--sidebar-width': '15rem',
+      //     '--sidebar-width-mobile': '20rem',
+      //   } as React.CSSProperties
+      // }
       >
-        <AppSidebar />
+        {/* <AppSidebar /> */}
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          <SidebarTrigger />
+          {/* <SidebarTrigger /> */}
           {children}
         </body>
       </SidebarProvider>

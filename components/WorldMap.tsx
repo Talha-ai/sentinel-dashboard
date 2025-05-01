@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import {
   MapContainer,
   TileLayer,
-  Marker,
+  // Marker,
   Popup,
   CircleMarker,
 } from 'react-leaflet';
